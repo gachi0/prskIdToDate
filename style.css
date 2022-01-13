@@ -1,0 +1,22 @@
+html {
+    width: 95%;
+    margin: 0 auto;
+}
+
+body * {
+    text-align: center;
+}
+
+#idInput {
+    width: 100%;
+    font-size: 150%;
+    padding-block: 16px;
+}
+
+#result {
+    font-size: 200%;
+}
+
+#description {
+    font-size: 16px;
+}
