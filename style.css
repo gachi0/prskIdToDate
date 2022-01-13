@@ -7,6 +7,10 @@ body * {
     text-align: center;
 }
 
+#platforms {
+    margin-top: 8px;
+}
+
 #idInput {
     width: 100%;
     font-size: 150%;
@@ -15,8 +19,4 @@ body * {
 
 #result {
     font-size: 200%;
-}
-
-#description {
-    font-size: 16px;
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Snowflake IDから生成日を求める</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Snowflake IDから生成日を求める</h1>
+    <input id="idInput" type="text" placeholder="IDを入力してください">
+    <div id="platforms">
+        <input type="radio" id="tw" name="type" checked>
+        <label for="tw">Twitter</label>
+        <input type="radio" id="discord" name="type">
+        <label for="discord">Discord</label>
+        <input type="radio" id="prsk" name="type">
+        <label for="prsk">プロセカ</label>
+    </div>
+    <p id="result"></p>
+    <p>式(簡易): <code id="expression"></code></p>
+    <p id="description">
+        Snowflake IDから生成日を求めるツールです。
+        ラジオボタンからプラットフォームを選択して、上の欄にIDを入力すると日付が表示されます。
+        合ってるかどうかはわかりません。
+    </p>
+    <script src="index.js"></script>
+</body>
+</html>
